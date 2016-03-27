@@ -7,7 +7,7 @@ CFLAGS   = -O3 -Wall
 OSLIBS   =
 LDFLAGS  =
 
-# Example programs -----------------------------------------------------------
+# MCP9808 program -----------------------------------------------------------
 
 mcp: mcp.o i2c.o
 	$(CC) $(LDFLAGS) mcp.o i2c.o $(OSLIBS) -o mcp

@@ -1,6 +1,4 @@
 # Compiler/linker setup ------------------------------------------------------
-
-# Linux-specific flags.  Comment these out if using Mac OS X.
 PLATFORM = linux
 CC       = gcc
 CFLAGS   = -O3 -Wall
