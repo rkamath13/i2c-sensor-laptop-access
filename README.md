@@ -1,23 +1,21 @@
 # i2c-sensor-laptop-access
 
-**This Project is purely done for understanding the i2c-protocol and the drivers and sm-bus used for it on a laptop.
-I have used a MCP9808 Temperature register to access my laptop's VGA port.**
+This Project is purely done for understanding the i2c-protocol and the drivers and sm-bus used for it on a laptop.
+I have used a MCP9808 Temperature register to access my laptop's VGA port.
 
 *Disclaimer: you are responsible for any hardware damage done to your sensor or your Laptop*
 
 **This project is done on a x86 system with a 32-bit Ubuntu OS**
 
 The code uses two structures from the i2c-dev.h file which can be found in the linux source namely
-```
-struct i2c_rdwr_ioctl_data 
-struct i2c_msg            
-	```
+
+1.struct i2c_rdwr_ioctl_data 
+2.struct i2c_msg  
+          
 The code also uses **ioctl** calls for reading and writing to the device.
 
 In the source directory, there is a **driver code i2c-linux.c** which has 3 main functions
-1. I2Copen()
-2. I2Cmsg()
-3. I2Cclose()
+I2Copen(), I2Cmsg(), I2Cclose()
 
 The functionality of the above 3 functions is defined in the comments sections of the code.
 I have written a I2C device specific code on top of it for MCP9808 sensor.
@@ -99,3 +97,6 @@ or a different video card module may simply need to be loaded.*
   You will get the readings you want from the device right on the Terminal!!!
   
    ![output](https://cloud.githubusercontent.com/assets/11395702/14223947/3830799e-f840-11e5-920d-aa1d59a6bc4b.png)
+
+
+#THANK YOU
