@@ -57,7 +57,8 @@ or a different video card module may simply need to be loaded.*
  ```
  *If you are changing the file name of your program, make sure to update the Makefile*
  
- ###Step 6:
+ ###Step 6: 
+ 
   Connect the sensor to the Port using the follwing images:
   
   [connection]: https://github.com/rkamath13/i2c-sensor-laptop-access/blob/master/connection.jpg "VGA-Port connection pins"
