@@ -1,5 +1,11 @@
 # i2c-sensor-laptop-access
 
+**This Project is purely done for understanding the i2c-protocol and the drivers and sm-bus used for it on a laptop.
+I have used a MCP9808 Temperature register to access my laptop's VGA port.**
+
+*Disclaimer: you are responsible for any hardware damage done to your sensor or your Laptop*
+
+
 ##STEPS:
 
 ###Step 1:
@@ -58,15 +64,21 @@ or a different video card module may simply need to be loaded.*
  *If you are changing the file name of your program, make sure to update the Makefile*
  
 ###Step 6: 
- 
-  Connect the sensor to the Port using the follwing images:
+ Connect the sensor to the Port using the follwing images:
   
  ![connection](https://cloud.githubusercontent.com/assets/11395702/14223946/37164886-f840-11e5-95e7-d4eabc442053.jpg)
  
- ![output](https://cloud.githubusercontent.com/assets/11395702/14223947/3830799e-f840-11e5-920d-aa1d59a6bc4b.png)
  
  ![setup](https://cloud.githubusercontent.com/assets/11395702/14223948/3a030ebc-f840-11e5-81ec-fd02f69273b8.JPG)
   
+###Step 7:
+  After you have made changes in the sensor-template.c and Makefile according to your sensor preference or if you are using the MCP9808 sensor which I am using, do the following
+  ```
+  $ make all
+  $ sudo ./sensor-template
+  ```
+  *Make sure you run the executable as root*
   
-
+  You will get the readings you want from the device right on the Terminal!!!
   
+   ![output](https://cloud.githubusercontent.com/assets/11395702/14223947/3830799e-f840-11e5-920d-aa1d59a6bc4b.png)
