@@ -57,12 +57,15 @@ or a different video card module may simply need to be loaded.*
  ```
  *If you are changing the file name of your program, make sure to update the Makefile*
  
- ###Step 6: 
+###Step 6: 
  
   Connect the sensor to the Port using the follwing images:
   
-  ![connection](https://raw.githubusercontent.com/rkamath13/i2c-sensor-laptop-access/blob/master/connection.jpg)
-  ![connection](https://raw.githubusercontent.com/rkamath13/i2c-sensor-laptop-access/blob/master/setup.JPG)
+ ![connection](https://cloud.githubusercontent.com/assets/11395702/14223946/37164886-f840-11e5-95e7-d4eabc442053.jpg)
+ 
+ ![output](https://cloud.githubusercontent.com/assets/11395702/14223947/3830799e-f840-11e5-920d-aa1d59a6bc4b.png)
+ 
+ ![setup](https://cloud.githubusercontent.com/assets/11395702/14223948/3a030ebc-f840-11e5-81ec-fd02f69273b8.JPG)
   
   
 
