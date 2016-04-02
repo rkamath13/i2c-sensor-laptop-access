@@ -61,9 +61,8 @@ or a different video card module may simply need to be loaded.*
  
   Connect the sensor to the Port using the follwing images:
   
-  [connection]: https://github.com/rkamath13/i2c-sensor-laptop-access/blob/master/connection.jpg "VGA-Port connection pins"
-  
-  [connection]: https://github.com/rkamath13/i2c-sensor-laptop-access/blob/master/setup.JPG "Laptop setup"
+  ![connection](https://raw.githubusercontent.com/rkamath13/i2c-sensor-laptop-access/blob/master/connection.jpg)
+  ![connection](https://raw.githubusercontent.com/rkamath13/i2c-sensor-laptop-access/blob/master/setup.JPG)
   
   
 
